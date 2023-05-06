@@ -1,0 +1,87 @@
+#body{
+    background-position: center;
+    background-size: cover;
+    animation-name: bg;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.enter{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: cursive;
+    text-shadow: 10px 10px 10px purple;
+    border: white solid 15px;
+    margin-top: 200px;
+    animation-name: colour;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.enter:hover{
+    padding: 15px;
+}
+@keyframes bg{
+    from{
+        background-image: url("keqing-genshin-impact.gif");
+    }
+    to{
+        background-image: url("static-assets-upload15827680754210027240.webp");
+    }
+}
+@keyframes colour{
+    from{
+        color: purple;
+        background: #c121ed;
+        box-shadow: 10px 10px 10px purple;
+        box-shadow: -10px -10px 10px white;
+    }to{
+        color: white;
+        background: rgb(14, 184, 87);
+        box-shadow: 10px 10px 10px white;
+        box-shadow: -10px -10px 10px purple;
+    }
+}
+#body2{
+    background-position: center;
+    background-size: cover;
+    animation-name: bg2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes bg2{
+    from{
+        background-image: url("ayato-ayato-genshin-IsTKtnXRHz.webp");
+    }
+    to{
+        background-image: url("show.gif");
+    }
+}
+.topic{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 10px 10px 10px cyan;
+    border: white solid 15px;
+    margin-top: 50px;
+    animation-name: colour2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    font-weight: 900;
+}
+@keyframes colour2{
+    from{
+        color: rgb(50, 96, 174);
+        background: rgb(56, 56, 183);
+        box-shadow: 10px 10px 10px yellow;
+        box-shadow: -10px -10px 10px white;
+    }to{
+        color: skyblue;
+        background: white;
+        box-shadow: 10px 10px 10px white;
+        box-shadow: -10px -10px 10px rgb(19, 187, 210);
+    }
+}
+.elements{
+    background: white;
+    font-style: italic;
+    font-weight: 600;
+}
